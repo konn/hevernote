@@ -1,0 +1,78 @@
+
+./Setup.hs,15
+main main1,2
+
+./app/Main.hs,52
+module Main Main0,1
+main main4,5
+main main5,6
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
+
+./src/Web/Evernote.hs,38
+module Web.Evernote Web.Evernote0,1
+
+./src/Web/Evernote/RawAPI.hs,51
+module Web.Evernote.RawAPIWeb.Evernote.RawAPI0,1
+
+./src/Web/Evernote/TH.hs,1462
+module Web.Evernote.TH Web.Evernote.TH2,3
+renderConstValue renderConstValue23,24
+renderConstValue renderConstValue24,25
+renderTypeReference renderTypeReference32,33
+renderTypeReference renderTypeReference33,34
+strictness strictness48,49
+strictness strictness49,50
+unpackStrict unpackStrict51,52
+unpackStrict unpackStrict52,53
+renderTypedef renderTypedef54,55
+renderTypedef renderTypedef55,56
+derivs derivs61,62
+derivs derivs62,63
+typeName typeName68,69
+typeName typeName69,70
+fieldType fieldType71,72
+fieldType fieldType72,73
+strDeriv strDeriv84,85
+strDeriv strDeriv85,86
+renderStruct renderStruct89,90
+renderStruct renderStruct90,91
+fieldToCon fieldToCon104,105
+fieldToCon fieldToCon105,106
+fieldToRecField fieldToRecField112,113
+fieldToRecField fieldToRecField113,114
+renderConst renderConst118,119
+renderConst renderConst119,120
+renderType renderType126,127
+renderType renderType127,128
+renderEnum renderEnum132,133
+renderEnum renderEnum133,134
+renderDefinition renderDefinition143,144
+renderDefinition renderDefinition144,145
+renderFunction renderFunction148,149
+renderFunction renderFunction149,150
+promotedListT promotedListT157,158
+promotedListT promotedListT158,159
+renderService renderService160,161
+renderService renderService161,162
+interpretIDL interpretIDL169,170
+interpretIDL interpretIDL170,171
+parseIDLFile parseIDLFile173,174
+parseIDLFile parseIDLFile174,175
+
+./src/Web/Evernote/RawAPI/NoteStore.hs,72
+module Web.Evernote.RawAPI.NoteStore Web.Evernote.RawAPI.NoteStore3,4
+
+./src/Web/Evernote/RawAPI/UserStore.hs,72
+module Web.Evernote.RawAPI.UserStore Web.Evernote.RawAPI.UserStore3,4
+
+./src/Web/Evernote/RawAPI/Errors.hs,66
+module Web.Evernote.RawAPI.Errors Web.Evernote.RawAPI.Errors3,4
+
+./src/Web/Evernote/RawAPI/Limits.hs,66
+module Web.Evernote.RawAPI.Limits Web.Evernote.RawAPI.Limits3,4
+
+./src/Web/Evernote/RawAPI/Types.hs,64
+module Web.Evernote.RawAPI.Types Web.Evernote.RawAPI.Types3,4

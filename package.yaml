@@ -1,0 +1,68 @@
+name:                hevernote
+version:             0.1.0.0
+github:              "konn/hevernote"
+license:             BSD3
+author:              "Hiromi ISHII"
+maintainer:          "konn.jinro _at_ gmail.com"
+copyright:           "2018 (c) Hiromi ISHII"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on Github at <https://github.com/konn/hevernote#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- language-thrift
+- pinch
+- thrift
+- wreq
+- template-haskell
+- th-lift
+- text
+- bytestring
+- attoparsec
+- containers
+- unordered-containers
+- names-th
+- hashable
+
+data-files: "data/evernote-thrift/src/*.thrift"
+
+library:
+  source-dirs: src
+  other-modules:
+  - Web.Evernote.Types.TH
+  ghc-options:  -Wall
+
+executables:
+  hevernote-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -Wall
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - hevernote
+
+tests:
+  hevernote-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -Wall
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - hevernote
